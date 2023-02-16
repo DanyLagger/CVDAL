@@ -12,25 +12,27 @@
     border-radius:20px;
   }
 
+  nav{
+    border-radius: 20px;
+  }
+
   main {
     margin: auto;
     border: 2px;
-    
   }
-  
+
   section {
     margin-bottom: 5px;
     max-width: 100%;
     border-radius:20px;
   }
   
- 
-  .imagen1{
-    border: 20px;
-    padding: 20px;
-    border-radius: 20px;
+  .imagen1 img{
+      padding: 20px;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
   }
-  
 
   ul.list-unstyled {
     font-size: 32px;
@@ -57,7 +59,6 @@
     margin-top: 5px;
     padding: 10px;
     border-radius: 20px;
-    
     background-color: rgb(153, 221, 218);
     align-items: center;
   }
@@ -92,7 +93,6 @@
 
   section.datos{
     background: linear-gradient(to right, #1dd8e6, #a7cde2);
-  
   }
 
   h1.text-center {
@@ -144,7 +144,7 @@
   section.formatosec:hover {
     background-color: rgb(226, 228, 228);
     outline: 8px ridge rgb(23, 7, 247);
-    border-radius: 2rem;
+    border-radius: 20px;
    
   }
   
@@ -156,7 +156,7 @@
   section.formatosec1:hover {
     background-color: rgb(226, 228, 228);
     outline: 8px ridge rgb(23, 7, 247);
-    border-radius: 2rem;
+    border-radius: 20px;
    
   }
   
@@ -169,7 +169,7 @@
     background: linear-gradient(to right, #2596d8, #c5dee0);
 
     background-color: turquoise;
-    border-radius: 2rem;
+    border-radius: 20px;
   }
   
   #cvcolor3 div{
